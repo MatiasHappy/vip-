@@ -1,0 +1,911 @@
+/* 
+TIERS FAQS SECTION::
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.hero-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.blue-text {
+    color: #0F3144;
+}
+.white-text {
+   color: #FFFFFF;
+}
+
+.bullion-hero {
+    background-image: url("imgs/herobgmob.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+.bullion-hero h1 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.hero-text p{
+ font-size: 1.2rem;
+ font-family: "inter";
+ line-height: 24.2px;
+ font-weight: 400;
+}
+
+.landing-hidden {
+    display: none;
+}
+
+.bullion-lp-container {
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.hero-container img {
+    width: 80%;
+}
+.bullion-lp-container h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.membership-container {
+    padding: 3rem 1.5rem;
+}
+
+.membership {
+    text-align: center;
+
+}
+.bullion-lp-container img {
+    max-width: 100%;
+}
+.join-now {
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 20px;
+    color: #666666;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: .7rem 1.3rem;
+}
+
+.white {
+    background-color: #F5F5F5;
+   
+}
+
+
+.tiers-container 
+{
+    max-width: 100%;
+}
+.tiers-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+}
+.tier img {
+    max-width: 100%;
+    height: auto;
+}
+.tier {
+    display: flex;
+    justify-content: center;
+}
+
+
+.benefits {
+    background-color: #001A29;
+    
+}
+.benefits-container {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+.tiers-bg h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.landing-heading h2 {
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.landing-heading p {
+   font-family: "open sans";
+   font-weight: 400;
+   font-size: 20px;
+   margin-bottom: 25px;
+}
+
+.benefit {
+    margin: 50px 0;
+}
+.benefit img {
+    margin-bottom: 15px;
+}
+.benefit p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: "open sans";
+}
+.membership p {
+    color: #999999;
+    font-family: "open sans";
+    font-size: 18px;
+    line-height: 24px;
+}
+.membership  {
+   margin-top: 0;
+}
+.bullion-tiers {
+    padding: 1rem 1.5rem;
+}
+
+.vip-card {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 40px;
+    background-image: url("imgs/VIPcallout.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vip-img img {
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+}
+
+.vip-text {
+    margin-top: 20px;
+    padding: .2rem;
+}
+
+.vip-text h2 {
+    font-size: 20px;
+font-weight: 300;
+padding-bottom: 20px;
+border-bottom: 1px solid #FFFFFF;
+}
+
+.vip-row {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.vip-row h3 {
+    margin-top: 15px;
+    color: #DFAD65;   
+    font-family: "open sans";
+    font-weight: 600;
+}
+.vip-row p {
+    font-weight: 300;
+    font-family: "open sans";
+    font-size: 14px;
+}
+
+.vip-btn a {
+    
+    color: #DFAD65;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    font-family: "open sans";
+    font-weight: 600;
+}
+
+.join-cta {
+    background-image: url("imgs/stip.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.join-container {
+    text-align: center;
+    padding: 1rem
+
+     1.5rem;
+}
+
+.join-container p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 15px;
+    line-height: 27.24px;
+    font-family: "open sans";
+}
+
+.join-form {
+    margin-top: 25px;
+}
+
+.form-input {
+    color: #1E293B;
+    width: 80%;
+    font-family: "inter";
+    font-weight: 400; 
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 12px;
+    border: .5px solid #94A3B8;
+}
+
+.blue {
+    color: white;
+   border: 0;
+    background-color:#2B495A ;
+}
+
+
+.benefits-list {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: start;
+    align-items: center;
+}
+
+.benefits-list-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.benefits-list-container li{
+    
+    padding: .5rem;
+    font-weight: 600;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+
+.jump {
+    background-image: url("imgs/bullionbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apply-now {
+ 
+    border-style: none;
+    border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 235px;
+    height: 50px;
+margin: auto;
+    background: #F98D29;
+    box-shadow: none;
+    text-shadow: none;
+    color: #0F3144;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    font-style: normal;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.benefits-list-container h3 {
+    text-align: center;
+    font-family: "open sans";
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.elite-container {
+    padding: 3rem 1.5rem;
+    
+}
+
+.elite-container h2 {
+    text-align: center;
+}
+
+.elite-col p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+    font-family: "open sans";
+    font-weight: 400;
+    line-height:32.68px ;
+}
+
+.elite-col span {
+    color:#DFAD65
+}
+
+.elite-col img {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.vip-elite p {
+    text-align: center;
+    color: #61C9F3;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "open sans";
+}
+.vip-elite a {
+    color:#F98D29;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #0F3144;
+    font-family: "open sans";
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+  
+}
+.faqs h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.faq-answer {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "open sans";
+    line-height: 24px;
+    display: none;
+    margin-top: 5px;
+}
+
+.faq-title h3 {
+    color: #DFAD65;
+    font-size: 24px;
+    font-family: "open sans";
+    font-weight: 400;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DFAD65;
+}
+
+.faqs {
+    padding: 3rem 1.5rem;
+}
+
+.faq-item {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.faqs-list {
+    margin-top: 30px;
+}
+
+.faq-arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    transform: rotate(0deg);
+    transition: transform 0.3s;
+}
+
+.faq-open .faq-arrow {
+    transform: rotate(180deg);
+}
+
+
+
+@media screen and (min-width:1000px) {
+    .hero-container {
+        max-width: 1100px;
+        height: 600px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 2fr;
+        gap: 25px;
+    }
+  .hero-text {
+    text-align: start;
+  }
+
+  .membership-container {
+   
+    max-width: 1100px;
+        margin: auto;
+  }
+
+  .benefits-container{
+   
+    max-width: 1100px;
+    margin: auto;
+}
+.benefits-pills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+.membership-pills {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+.hero-text h1 {
+    font-size: 32px;
+}
+.vip-card {
+   
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    padding: 2rem;
+    gap: 40px;
+    background-image: url("imgs/VIP+pc.png");
+}
+.vip-btn a{
+ display: none;
+    justify-content: start;
+}
+.vip-text {
+    margin-top: 0;
+}
+.vip-img  {
+    width: 40%;
+    margin: auto;
+}
+
+.join-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-container {
+    padding: 3rem;
+    
+}
+.blue {
+    margin-top: 0;
+}
+.elite-container {
+    max-width: 1100px;
+    margin: auto;
+}
+.elite-row {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: start;
+    gap: 50px;
+}
+.bullion-lp-container h2 {
+    font-size: 2.5rem;
+}
+.elite-col p {
+    text-align: start;
+}
+.apply-now {
+    margin: 0;
+    margin-top: 25px;
+}
+.benefits-list-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.jump {
+    background-image: url("imgs/bullionbgpc.png");
+}
+.faqs {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tiers-bg {
+    max-width: 1100px;
+    margin: auto;
+}
+.tier-info {
+    padding-right: 25px;
+}
+.tier-faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tiers-head {
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: auto;
+}
+
+.tier-info > .faq-item {
+    margin-top: 0;
+}
+
+.membership-tiers {
+    background-image: url("imgs/Tiers\ Container\ Frame.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+.tier-faq {
+    padding-bottom: 10px;
+   border-bottom: 1px solid #CCCCCC;
+}
+.membership-container h2 {
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .break-mobile {
+        white-space: normal; /* Allow line breaks on mobile */
+    }
+}
+
+
+
+
+
+
+
+
+.item-content p {
+    width: 90%;
+    margin: auto;
+}
+
+.item-content img {
+    margin-bottom: 0;
+}
+
+.item-content {
+    margin-bottom:35px;
+}
+
+.tuned p {
+    color: #DFAD65;
+    font-family: "open sans";
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.vip-text-2 h2{
+border-bottom: 1px solid #999999;
+padding-bottom: 30px;
+margin-bottom: 30px;
+}
+
+
+.vip-text-2 h3 {
+    color: #0F3144;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.vip-text-2 > .vip-row {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #999999;
+    padding-bottom:25px;
+}
+
+.vip-text-2 p {
+    color: #0F3144;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.vip-benefits {
+    background-image: url("imgs/Exclusives.png");
+
+    background-repeat: no-repeat;
+}
+
+.elite-container h2 {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.elite-container span {
+    color: #61C9F3;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.elite-container p {
+    font-family: "open sans";
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.elite-row p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.apply-now {
+    background-color: #F98D29;
+    color: #0F3144 !important;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 24px;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+
+.outro-container p {
+color: #000000;
+font-size: 20px;
+text-align: center;
+font-family: "open sans";
+font-weight: 300;
+margin-bottom: 30px;
+}
+
+.outro-container img {
+    display: block;
+    margin: auto;
+}
+
+.vipplus {
+    font-size: 42px;
+    font-family: "open sans";
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+.bullion-hero h1 {
+margin-top: 10px;
+}
+
+.hero-text p {
+    font-weight: 300;
+}
+
+.hero-container img {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+.pc {
+    display: none;
+}
+
+.membership-tiers img {
+    margin: auto;
+}
+
+.items {
+    margin-top: 25px;
+}
+.vip-benefits {
+    margin-top: 50px;
+}
+
+.vip-l-2 p {
+    color: #0F3144;
+    font-size: 20px;
+    font-family: "open sans";
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.vip-l-2 h2{
+    margin-bottom: 30px;
+}
+.shop-our {
+    text-decoration: none;
+    font-weight: 600;
+    color: #005F9B;
+}
+.vipplus img {
+   display: none;
+}
+
+#benefits1 {
+    margin-top: 0 !important;
+}
+@media screen and (min-width: 1000px) {
+    .hero-container {
+        
+      grid-template-columns: 1fr;
+        position: relative;
+    }
+    .hero-text{
+        width: 60%;
+    }
+    .hero-container > .img-container {
+        display: none;
+    }
+
+    .vipplus {
+        position: relative;
+    }
+    .vipplus img {
+        display: block;
+        position: absolute;
+        left: -100px;
+        top: 8px;
+        width: 100px;
+    }
+    .bullion-hero {
+        background-image: url("imgs/1440x600_VIP-Plus-Hero\ 2.png");
+    }
+    .vip-benefits {
+        margin-top: 50px;
+    }
+    #benefits1 {
+        margin-top: 0;
+    }
+    .apply-now {
+        width: 340px;
+        margin: auto;
+    }
+    .elite-row {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        text-align: start;
+        gap: 50px;
+    }
+    .elite-container h2 {
+        text-align: left;
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+    .elite-container p {
+        text-align: left;
+    }
+    .landing-row {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        gap: 40px;
+    }
+    .pc {
+        display: block;
+    }
+    .mob {
+        display: none;
+    }
+.membership-pills {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+
+.item-content {
+    height: 97px;
+}
+.vip-benefits {
+    background-image: url("imgs/exclusivesbg.png");
+ background-size: cover;
+}
+.vip-text-2 h2 {
+    text-align: start;
+}
+.vip-row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: .2fr 1.5fr 2fr;
+    gap: 40px;
+}
+.vip-row img {
+
+    object-fit: contain;
+}
+
+.membership-container h2 {
+    text-align: start;
+}
+}
+
+.arrow {
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    /* Initially hide all .items elements */
+/* Initially hide all .items elements */
+.items {
+    display: none;
+}
+
+/* Show .items in the first .benefit.membership */
+.benefit.membership:first-child .items {
+    display: block;
+}
+
+/* Add these styles to the .toggle-trigger container */
+.toggle-trigger {
+    display: flex; /* Use flexbox for proper alignment */
+    align-items: center; /* Vertically center the content */
+    flex-direction: column;
+    cursor: pointer; /* Add pointer cursor to indicate interactivity */
+}
+/* Rotate the arrow when .items is visible - Increase specificity */
+
+
+/* Style the arrow */
+.arrow {
+    display: block;
+    margin: auto;
+    margin-left: 5px; /* Adjust the margin as needed */
+ 
+    transition: transform 0.3s; /* Add a smooth transition for the transform property */
+}
+
+
+.benefit svg {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+}
